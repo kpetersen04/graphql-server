@@ -16,7 +16,7 @@ export const typeDefs = `#graphql
     }
     type Query {
         # when the user queries reviews they expect to get the Reviews - entry point - where queryies can start from
-        reviews: [Reviews]
+        reviews: [Review]
         games: [Game]
         authors: [Author]
     }
